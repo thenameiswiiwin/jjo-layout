@@ -18,11 +18,11 @@
 				<nav>
 					<h1 class="nav__logo">JJO</h1>
 					<ul class="nav__menu">
-						<li class="menu__item"><a href="#">Discounts</a></li>
-						<li class="menu__item"><a href="#">About Us</a></li>
-						<li class="menu__item"><a href="#">FAQ</a></li>
-						<li class="menu__item"><a href="#">Blog</a></li>
-						<button class="menu__btn">Login</button>
+						<li class="nav__item"><a href="#">Discounts</a></li>
+						<li class="nav__item"><a href="#">About Us</a></li>
+						<li class="nav__item"><a href="#">FAQ</a></li>
+						<li class="nav__item"><a href="#">Blog</a></li>
+						<button class="nav__btn">Login</button>
 					</ul>
 				</nav>
 				<!-- NAVIGATION END -->
@@ -43,141 +43,157 @@
 				<section class="offers">
 					<h1 class="offers__title">
 						Newest Job Offers
-						<a href="#" class="offers__btn">View all job offers ➜</a>
+						<a href="#" class="offers__all-jobs">View all job offers ➜</a>
 					</h1>
-					<div class="articles">
+					<div class="offers__articles">
 						<article class="offers__job">
-							<div class="job__top">
-								<a href="#" class="job__title"
-									>Junior Java Developer
-									<span class="job__time">2 hours ago</span></a
-								>
-								<p><span class="job__company">PickSass</span> Wrclaw, Polska</p>
-							</div>
-							<div class="job__bottom">
+							<a href="#" class="offers__job-title"
+								>Junior Java Developer
+								<span class="offers__posted">2 hours ago</span></a
+							>
+							<p class="offers__company">
+								PickSass<span> Wrclaw, Polska</span>
+							</p>
+							<div class="offers__description">
 								<p>
 									I am currently looking for a Java Developer. Project for
 									Public Sector Location: Wrocław (during the pandemic remote
 									work) $ up to PLN 550 net / MD B2B
 								</p>
-								<button class="job__btn">></button>
+								<button class="offers__btn">></button>
 							</div>
 						</article>
 						<!-- ARTICLE 1 ENDS -->
 						<article class="offers__job">
-							<div class="job__top">
-								<a href="#" class="job__title"
-									>Junior Project Manager
-									<span class="job__time">3 hours ago</span></a
-								>
-								<p><span class="job__company">Frontkom</span> Lublin, Polska</p>
-							</div>
-							<div class="job__bottom">
+							<a href="#" class="offers__job-title"
+								>Junior Project Manager
+								<span class="offers__posted">3 hours ago</span></a
+							>
+							<p class="offers__company">
+								Frontkom<span> Lublin, Polska</span>
+							</p>
+							<div class="offers__description">
 								<p>
 									Join us in the Lublin office to build innovative long-term
 									projects. Exciting international clients and partners and a
 									work environment focused on learning and growth awaits you!
 								</p>
-								<button class="job__btn">></button>
+								<button class="offers__btn">></button>
 							</div>
 						</article>
 						<!-- ARTICLE 2 ENDS -->
 						<article class="offers__job">
-							<div class="job__top">
-								<a href="#" class="job__title"
-									>Junior Project Manager
-									<span class="job__time">1 day ago</span></a
-								>
-								<p><span class="job__company">Frontkom</span> Lublin, Polska</p>
-							</div>
-							<div class="job__bottom">
+							<a href="#" class="offers__job-title"
+								>Junior Project Manager
+								<span class="offers__posted">1 day ago</span></a
+							>
+							<p class="offers__company">Frontkom<span>Lublin, Polska</span></p>
+							<div class="offers__description">
 								<p>
 									I am currently looking for a Java Developer. Project for
 									Public Sector Location: Wrocław (during the pandemic remote
 									work) $ up to PLN 550 net / MD B2B
 								</p>
-								<button class="job__btn">></button>
+								<button class="offers__btn">></button>
 							</div>
 						</article>
 						<!-- ARTICLE 3 ENDS -->
 					</div>
-					<!-- ARTICLES END -->
+					<!-- OFFERS ARTICLES END -->
 				</section>
 				<!-- NEWEST JOB OFFERS END -->
 				<section class="featured">
 					<h1 class="featured__title">Featured Companies</h1>
 					<ul class="featured__list">
 						<li class="featured__item">
-							<img
-								class="featured__icon"
-								src="/images/icon-briefcase.png"
-								alt="briefcase icon"
-							/>
-							<h4 class="featured__description">GrandParade</h4>
+							<div class="featured__border">
+								<img
+									class="featured__icon"
+									src="/images/icon-briefcase.png"
+									alt="briefcase icon"
+								/>
+							</div>
+							<p class="featured__description">GrandParade</p>
 						</li>
 						<li class="featured__item">
-							<img
-								class="featured__icon"
-								src="/images/icon-briefcase.png"
-								alt="briefcase icon"
-							/>
-							<h4 class="featured__description">Seargin</h4>
+							<div class="featured__border">
+								<img
+									class="featured__icon"
+									src="/images/icon-briefcase.png"
+									alt="briefcase icon"
+								/>
+							</div>
+							<p class="featured__description">Seargin</p>
 						</li>
 						<li class="featured__item">
-							<img
-								class="featured__icon"
-								src="/images/icon-briefcase.png"
-								alt="briefcase icon"
-							/>
-							<h4 class="featured__description">DEX Ventures</h4>
+							<div class="featured__border">
+								<img
+									class="featured__icon"
+									src="/images/icon-briefcase.png"
+									alt="briefcase icon"
+								/>
+							</div>
+							<p class="featured__description">DEX Ventures</p>
 						</li>
 						<li class="featured__item">
-							<img
-								class="featured__icon"
-								src="/images/icon-briefcase.png"
-								alt="briefcase icon"
-							/>
-							<h4 class="featured__description">NBC</h4>
+							<div class="featured__border">
+								<img
+									class="featured__icon"
+									src="/images/icon-briefcase.png"
+									alt="briefcase icon"
+								/>
+							</div>
+							<p class="featured__description">NBC</p>
 						</li>
 						<li class="featured__item">
-							<img
-								class="featured__icon"
-								src="/images/icon-briefcase.png"
-								alt="briefcase icon"
-							/>
-							<h4 class="featured__description">SVT SP Zoo</h4>
+							<div class="featured__border">
+								<img
+									class="featured__icon"
+									src="/images/icon-briefcase.png"
+									alt="briefcase icon"
+								/>
+							</div>
+							<p class="featured__description">SVT SP Zoo</p>
 						</li>
 						<li class="featured__item">
-							<img
-								class="featured__icon"
-								src="/images/icon-briefcase.png"
-								alt="briefcase icon"
-							/>
-							<h4 class="featured__description">DG Tech</h4>
+							<div class="featured__border">
+								<img
+									class="featured__icon"
+									src="/images/icon-briefcase.png"
+									alt="briefcase icon"
+								/>
+							</div>
+							<p class="featured__description">DG Tech</p>
 						</li>
 						<li class="featured__item">
-							<img
-								class="featured__icon"
-								src="/images/icon-briefcase.png"
-								alt="briefcase icon"
-							/>
-							<h4 class="featured__description">PickSaaS</h4>
+							<div class="featured__border">
+								<img
+									class="featured__icon"
+									src="/images/icon-briefcase.png"
+									alt="briefcase icon"
+								/>
+							</div>
+							<p class="featured__description">PickSaaS</p>
 						</li>
 						<li class="featured__item">
-							<img
-								class="featured__icon"
-								src="/images/icon-briefcase.png"
-								alt="briefcase icon"
-							/>
-							<h4 class="featured__description">BlackRose</h4>
+							<div class="featured__border">
+								<img
+									class="featured__icon"
+									src="/images/icon-briefcase.png"
+									alt="briefcase icon"
+								/>
+							</div>
+							<p class="featured__description">BlackRose</p>
 						</li>
 						<li class="featured__item">
-							<img
-								class="featured__icon"
-								src="/images/icon-briefcase.png"
-								alt="briefcase icon"
-							/>
-							<h4 class="featured__description">FrontKom</h4>
+							<div class="featured__border">
+								<img
+									class="featured__icon"
+									src="/images/icon-briefcase.png"
+									alt="briefcase icon"
+								/>
+							</div>
+							<p class="featured__description">FrontKom</p>
 						</li>
 						<button class="featured__btn">></button>
 					</ul>
@@ -185,6 +201,7 @@
 				</section>
 				<!-- FEATURED COMPANIES END -->
 				<section class="subscribe">
+					<div class="subscribe__container">
 						<h1 class="subscribe__title">Receive new job offers.</h1>
 						<p class="subscribe__description">
 							Want to know as soon as a new job offer is posted on our website?
@@ -199,6 +216,7 @@
 						/>
 						<button class="subscribe__btn">Subscribe</button>
 					</div>
+					<!-- SUBSCRIBE CONTAINER END -->
 				</section>
 				<!-- SUBSCRIBE END -->
 			</div>
@@ -206,7 +224,7 @@
 		</main>
 		<!-- MAIN END  -->
 		<footer>
-			<ul class="footer">
+			<ul class="footer__list">
 				<li class="footer__item"><a href="#">Job Offers</a></li>
 				<li class="footer__item"><a href="#">Companies</a></li>
 				<li class="footer__item"><a href="#">Discounts</a></li>
@@ -214,7 +232,7 @@
 				<li class="footer__item"><a href="#">Juniors</a></li>
 				<li class="footer__item"><a href="#">FAQ</a></li>
 				<li class="footer__item"><a href="#">Blog</a></li>
-				<li class="footeR__item"><a href="#">Terms</a></li>
+				<li class="footer__item"><a href="#">Terms</a></li>
 				<li class="footer__item"><a href="#">Privacy</a></li>
 			</ul>
 		</footer>
